@@ -14,6 +14,8 @@ class Item {
 		this.type = type;
 	}
 
+	public Item() {
+	}
 	//TODO setters and getters
 
 	public int getId() {
@@ -59,5 +61,20 @@ class Item {
 		if(type = 'C') {
 			return 0;
 		}
+	}
+}
+
+class Receipt{
+	private Item items[];
+
+	public Receipt(Item[] items) {
+		this.items = items;
+	}
+
+	public getPriceFull(){
+		pricece = 0;
+		for (Item item : items)
+			pricece+=item.getPrice();
+		return pricece;
 	}
 }
