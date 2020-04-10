@@ -1,0 +1,40 @@
+commit 393950354255f36603d8440f78907d6bbfcdafba
+Author: PavelAndonovic <andonovicpavel@gmail.com>
+Date:   Fri Apr 10 19:17:30 2020 +0200
+
+    taxReturn method finished
+
+commit f4de496442ad31ebf583c0e49a023f63bd2713c2
+Author: PavelAndonovic <andonovicpavel@gmail.com>
+Date:   Fri Apr 10 19:12:09 2020 +0200
+
+    tax   type   variable   added
+
+commit 4102738122d41c5da5854eaf0124f0524c64a943
+Author: PavelAndonovic <andonovicpavel@gmail.com>
+Date:   Fri Apr 10 19:08:35 2020 +0200
+
+    items.csv, items.txt and items.xlsx files added
+
+commit 92d0dc52a7865253394d737c3e4f248565f24584
+Author: Stefan Andonov <stefan5andonov@yahoo.com>
+Date:   Thu Mar 12 17:42:31 2020 +0100
+
+    initial commit
+
+Чекори:
+1. инсталирање
+2. git clone https://github.com/finkiSI/SI_lab1_gr3.git
+3. директно, без гит
+4. git remote rm https://github.com/finkiSI/SI_lab1_gr3.git
+5. git remote -u origin https://github.com/PavelAndonovic/SI_lab1_gr3_175022.git
+6. git push --all		git pull --all
+9. git add items.txt		git commit -m “items.txt file added"
+10. git push --all
+12. git add Item.java		git commit -m "type variable added"
+14. git add Item.java		git commit -m "taxReturn method finished"		git push --all
+15. git checkout -b receiptFeature
+18. git add Item.java		git commit -m "receiptFeature added"			git push --all
+19. git checkout master		git merge receiptFeature 	git pull --all		git push --all
+
+https://github.com/PavelAndonovic/SI_lab1_gr3_175022
